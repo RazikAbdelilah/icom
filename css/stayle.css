@@ -1,0 +1,298 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+:root{
+    --colormain:#D83F31;
+    --colormain2:#219C90;
+    --bg-color:#eee2deb4;
+    --text-color: #ffffff;
+    --text-color-2: #DED0B6;
+    --text-color-4: #e9e5dd;
+    --bg-color-2: #EEE2DE;
+    --text-color-3:#706233;
+}
+.container-top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--bg-color);
+    height: 90px;
+}
+.container-top-bar .icon a i{
+    width: 30px;
+    color: var(--colormain2);
+    font-size: 20px;
+}
+.container-top-bar .options select{
+    background-color:transparent ;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    border-bottom: 2px solid var(--colormain2);
+}
+/* header container  */
+
+.container-bar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    height: 50px;
+    background-color: var(--colormain2);
+    align-items: center;
+
+}
+.container-bar ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--text-color);
+    transition: 0.2s;
+
+}
+.container-bar ul li input{
+    border: none;
+    border-bottom: 2px solid var(--colormain);
+    background: transparent;
+    outline: none;
+}
+.container-bar ul li input::placeholder{
+    color: var(--bg-color);
+}
+.container-bar ul li i{
+    margin-left: -20px;
+}
+.container-bar ul li a:hover{
+    color: var(--colormain);
+    border-bottom: 2px solid var(--colormain);
+}
+/* section and aside par  */
+.section-aside-bar{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.section-aside-bar .section-1{
+    display: flex;
+    align-items: center;
+     width: 80%;
+     background-image: url(../image/banner.jpg) ;
+}
+.section-aside-bar .section-1 .hidin{
+   margin-left: 70px;
+    margin-right: 270px;
+}
+.section-aside-bar .section-1 .hidin h2{
+    color: var(--colormain2);
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+.section-aside-bar .section-1 .hidin h2 span{
+    color: var(--colormain);
+}
+.section-aside-bar .section-1 .hidin h4{
+    color: var(--colormain);
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+.section-aside-bar .section-1 .hidin p{
+    margin-bottom: 50px;
+}
+.section-aside-bar .section-1 .hidin div a{
+    background-color: var(--colormain2);
+    text-decoration: none;
+    color: var(--colormain);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    margin-left: 30px;
+    font-weight: 700;
+    transition: 0.3S;
+}
+.section-aside-bar .section-1 .hidin div a:hover{
+    color: var(--text-color);
+    background-color: var(--colormain);
+}
+.aside-1{
+    width: 20%;
+}
+.section-aside-bar .aside-1 .sign a{
+    color: var(--text-color);
+    background-color: var(--colormain);
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+.section-aside-bar .aside-1 .sign{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.section-aside-bar .aside-1 .ph{
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--bg-color-2);
+    margin-left: 5%;
+}
+.section-aside-bar .aside-1 .ph span{
+    color: var(--colormain);
+}
+.section-aside-bar .aside-1 .aside-card a h2{
+    color: var(--colormain);
+    text-align: center;
+    margin-bottom: 7px;
+}
+.section-aside-bar .aside-1 .aside-card a p{
+    color: var(--text-color-2);
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    padding-bottom: 15px;
+}
+.section-aside-bar .aside-1 .aside-card a div{
+    display: flex;
+    justify-content: center;
+}
+.section-aside-bar .aside-1 .aside-card{
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+/* section 2 */
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-color-2);
+    height: 150px auto;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.section-2 a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid var(--colormain);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.section-2 a h3{
+    color: var(--colormain2);
+}
+/* products section  */
+.hed-pro{
+    border-bottom: 4px solid var(--colormain2);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.hed-pro h1{
+    color: var(--colormain);
+    margin-left: 30px;
+}
+/* products  */
+.products{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    
+}
+.products .prod{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.products .prod a div{
+    height: 165px;
+    width: 170px;
+    background-color: var(--text-color-4);
+    border-radius: 7px 7px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products .prod a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: space-around;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.products .prod a:hover{
+    transform: scale(1.07);
+    background-color: var(--text-color-2);
+}
+.products .prod a p{
+    width: 125px;
+    margin-top: 19px;
+    color: var(--text-color-3);
+}
+.bg-products{
+    background-image: url(../image/product_bg.jpg);
+}
+.Products-section .see{
+    background-color: var(--colormain2);
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    
+}
+.Products-section .see:hover{
+    background-color: var(--colormain);
+
+}
+.Products-section .see a{
+    color: var(--text-color);
+    font-weight: 700;
+}
+.Products-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.section-3 img{
+    width: 100%;
+}
+/* section 4 stayle  */
+.section-4 .card-big{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.section-4 .card-big p{
+    padding-top: 20px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+
+
+
